@@ -10,6 +10,10 @@ def print_hi(name):
 
 
 # 按间距中的绿色按钮以运行脚本。
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2fc2849 (first commit)
 if __name__ == '__main__':
     print_hi('PyCharm')
 
