@@ -1,11 +1,7 @@
-hell
+# 建立一个http链接
+import urllib.request
 
-<<<<<<< HEAD
-=======
-what
-
-
-d = {'a': 1, 'b': 2, 'c': 3}
-for k, v in d.items():
-    print(k, v)
->>>>>>> 2fc2849 (first commit)
+# 读取一个网页
+response = urllib.request.urlopen('http://www.baidu.com')
+html = response.read()
+print(html)
